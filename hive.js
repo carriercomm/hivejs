@@ -1,3 +1,7 @@
+#!/usr/bin/env node
+
+'use strict';
+
 // Hive.js
 // Init process for idiots
 // Author: Teemu Heikkilä <teemu.heikkila@emblica.org>
