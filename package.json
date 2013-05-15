@@ -1,0 +1,28 @@
+{
+  "name": "Hive.js",
+  "version": "0.0.1",
+  "author": "Teemu Heikkilä <teemu.heikkila@emblica.org>",
+  "description": "a simple init script for dummies",
+  "bin": {
+    "http-server": "./hive.js"
+  },
+  "scripts": {
+    "start": "node ./hive.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emblica/hivejs.git"
+  },
+  "keywords": [
+    "init",
+    "hive",
+    "docker"
+  ],
+  "dependencies" : {
+    "async"   :  "*",
+  }, 
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
